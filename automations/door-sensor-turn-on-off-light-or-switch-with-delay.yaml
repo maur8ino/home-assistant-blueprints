@@ -1,6 +1,13 @@
 blueprint:
   name: Door Sensor-activated Light/Switch With Delay
-  description: Turn on/off a light or a switch when door is opened/closed and off after the door has been opened for a while.
+  description: >
+    Version: 1.1
+
+    Turn on/off a light or a switch when door is opened/closed and off after the door has been opened for a while.
+
+    For community support see this forum post: [Click here](https://community.home-assistant.io/t/door-sensor-light-or-switch-delay-off/483329).
+
+    GitHub: [Click here](https://github.com/maur8ino/home-assistant-blueprints/blob/main/automations/door-sensor-turn-on-off-light-or-switch-with-delay.yaml)
   domain: automation
   input:
     door_sensor_entity:
